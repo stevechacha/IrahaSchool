@@ -1,0 +1,183 @@
+[versions]
+# Plugins
+android-gradle-plugin = "8.1.0"
+kotlin-android = "1.9.0"
+mapsplatform-secrets = "2.0.1"
+hilt-plugin = "2.44"
+kotlin-serialization = "1.6.10"
+#Coil
+coil = "2.2.2"
+
+# Lottie
+lottie = "5.0.3"
+
+# Android X
+core-ktx-version = "1.12.0"
+lifecycle-runtime-ktx = "2.6.2"
+activity-compose = "1.7.2"
+compose-bom = "2023.09.02"
+compose-navigation = "2.7.3"
+datastore = "1.0.0"
+lifecycle-viewmodel-compose = "2.6.2"
+# Play Services
+play-services-location = "21.0.1"
+# DI
+hilt = "2.48"
+hilt-nav-compose = "1.0.0"
+# Async
+retrofit = "2.9.0"
+coil-compose = "2.4.0"
+kotlinx-serialization = "1.5.1"
+kotlinx-serialization-converter = "0.8.0"
+kotlinx-coroutines-android = "1.7.1"
+okhttp = "4.10.0"
+# Testing
+junit = "4.13.2"
+turbine = "0.12.1"
+mockk = "1.13.3"
+truth = "1.1.3"
+coroutines-test = "1.7.1"
+# Firebase
+com-google-services = "4.4.0"
+firebase-bom = "32.3.1"
+crashlytics-plugin = "2.9.9"
+
+# Accompanist"
+accompanist = "0.28.0"
+
+# color-extraction
+color-pallet-extraction = "1.0.0"
+
+#Lifecycle
+lifecycle = "2.6.2"
+
+#Timber
+timber = "5.0.1"
+
+# coredb
+desugar-jdk-libs = "2.0.3"
+
+#Room
+room = "2.6.0-rc01"
+
+[libraries]
+#AndroidX
+core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx-version" }
+lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycle-runtime-ktx" }
+activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activity-compose" }
+compose-animation = { group = "androidx.compose.animation", name = "animation" }
+compose-material3 = { group = "androidx.compose.material3", name = "material3" }
+compose-materialWindow = { module = "androidx.compose.material3:material3-window-size-class" }
+compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "compose-bom" }
+compose-ui = { group = "androidx.compose.ui", name = "ui" }
+compose-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+compose-material = { group = "androidx.compose.material", name = "material" }
+compose-navigation = { group = "androidx.navigation", name = "navigation-compose", version.ref = "compose-navigation" }
+datastore = { group = "androidx.datastore", name = "datastore-preferences", version.ref = "datastore" }
+hilt-nav-compose = { group = "androidx.hilt", name = "hilt-navigation-compose", version.ref = "hilt-nav-compose" }
+
+# color extraction
+color-extraction = { module ="androidx.palette:palette-ktx",version.ref= "color-pallet-extraction"}
+
+
+#Accompanist
+accompanist-flowlayout = { group = "com.google.accompanist", name = "accompanist-flowlayout", version.ref = "accompanist" }
+accompanist-adaptive = { group = "com.google.accompanist", name = "accompanist-adaptive", version.ref = "accompanist" }
+accompanist-insets = { group = "com.google.accompanist", name = "accompanist-insets", version.ref = "accompanist" }
+accopanist-animation = { group = "com.google.accompanist", name = "accompanist-animation", version.ref = "accompanist" }
+accompanist-swiperefresh = { group = "com.google.accompanist", name = "accompanist-swiperefresh", version.ref = "accompanist" }
+accompanist-systemuicontroller = { group = "com.google.accompanist", name = "accompanist-systemuicontroller", version.ref = "accompanist" }
+accompanist-pager = { group = "com.google.accompanist", name = "accompanist-pager", version.ref = "accompanist" }
+accompanist-pager-indicators = { group = "com.google.accompanist", name = "accompanist-pager-indicators", version.ref = "accompanist" }
+accompanist-permissions = { group = "com.google.accompanist", name = "accompanist-permissions", version.ref = "accompanist" }
+accompanist-navigation-material = { group = "com.google.accompanist", name = "accompanist-navigation-material", version.ref = "accompanist" }
+accompanist-navigation-animation = { group = "com.google.accompanist", name = "accompanist-navigation-animation", version.ref = "accompanist" }
+accompanist-placeholder ={ group = "com.google.accompanist", name = "accompanist-placeholder-material",version.ref="accompanist"}
+
+#Async
+retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
+coil = { group = "io.coil-kt", name = "coil-compose", version.ref = "coil-compose" }
+kotlinx-serialization = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version.ref = "kotlinx-serialization" }
+kotlinx-serialization-converter = { group = "com.jakewharton.retrofit", name = "retrofit2-kotlinx-serialization-converter", version.ref = "kotlinx-serialization-converter" }
+kotlinx-coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "kotlinx-coroutines-android" }
+okhttp-bom = { group = "com.squareup.okhttp3", name = "okhttp-bom", version.ref = "okhttp" }
+okhttp = { group = "com.squareup.okhttp3", name = "okhttp" }
+okhttp-logging-interceptor = { group = "com.squareup.okhttp3", name = "logging-interceptor" }
+
+#chucker
+chucker-debug = "com.github.chuckerteam.chucker:library:3.5.2"
+chucker-release = "com.github.chuckerteam.chucker:library-no-op:3.5.2"
+
+# Compose_Calender
+calender  = "com.kizitonwose.calendar:compose:2.3.0"
+
+#DI
+hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref = "hilt" }
+hilt-compiler = { group = "com.google.dagger", name = "hilt-compiler", version.ref = "hilt" }
+compose-viewmodel-lifecycle = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-compose", version.ref = "lifecycle-viewmodel-compose" }
+playservices-location = { group = "com.google.android.gms", name = "play-services-location", version.ref = "play-services-location" }
+
+#Firebase
+com-google-services = { group = "com.google.gms", name = "google-services", version.ref = "com-google-services" }
+com-firebase-crashlytics-plugin = { group = "com.google.firebase", name = "firebase-crashlytics-gradle", version.ref = "crashlytics-plugin" }
+firebase-bom = { group = "com.google.firebase", name = "firebase-bom", version.ref = "firebase-bom" }
+firebase-analytics = { group = "com.google.firebase", name = "firebase-analytics-ktx" }
+firebase-crashlytics = { group = "com.google.firebase", name = "firebase-crashlytics-ktx" }
+
+# Kotlin
+kotlin-stdlib = { group = "org.jetbrains.kotlin", name = "kotlin-stdlib", version.ref = "kotlin-android" }
+kotlin-reflect = { group = "org.jetbrains.kotlin", name = "kotlin-reflect", version.ref = "kotlin-android" }
+kotlin-gradle-plugin = { group = "org.jetbrains.kotlin", name = "kotlin-gradle-plugin", version.ref = "kotlin-android" }
+kotlin-serialization = { group = "org.jetbrains.kotlin", name = "kotlin-serialization", version.ref = "kotlin-android" }
+
+#Lifecycle
+lifecycle-livedataKtx = { group = "androidx.lifecycle",name ="lifecycle-livedata-ktx", version.ref = "lifecycle" }
+lifecycle-viewmodel-compose = { group = "androidx.lifecycle",name="lifecycle-viewmodel-compose", version.ref = "lifecycle" }
+lifecycle-viewmodel = { group = "androidx.lifecycle",name ="lifecycle-viewmodel-savedstate", version.ref = "lifecycle" }
+
+
+#Lottie
+lottie = { group = "com.airbnb.android", name = "lottie-compose", version.ref = "lottie" }
+
+#Room
+room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "room" }
+room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
+room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "room" }
+room-testing = { group = "androidx.room", name = "room-testing", version.ref = "room" }
+
+#coreLibraryDesugaring
+desugar-jdk-desugar = { group = "com.android.tools", name = "desugar_jdk_libs", version.ref = "desugar-jdk-libs" }
+desugar-jdk-libs = { group = "com.android.tools", name = "desugar_jdk_libs", version.ref = "desugar-jdk-libs" }
+
+
+#splashscreen = {module ="androidx.core:core-splashscreen:1.0.1"}
+
+
+# Testing
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+turbine = { group = "app.cash.turbine", name = "turbine", version.ref = "turbine" }
+mock-android = { group = "io.mockk", name = "mockk-android", version.ref = "mockk" }
+mock-agent = { group = "io.mockk", name = "mockk-agent", version.ref = "mockk" }
+truth = { group = "com.google.truth", name = "truth", version.ref = "truth" }
+coroutines-test = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "coroutines-test" }
+compose-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+compose-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+
+# Timber
+timber = { group = "com.jakewharton.timber", name = "timber", version.ref = "timber" }
+
+[bundles]
+lifecycle = ["lifecycle-livedataKtx", "lifecycle-viewmodel-compose", "lifecycle-viewmodel"]
+androidx = ["core-ktx", "lifecycle-runtime-ktx", "activity-compose", "datastore", "hilt-nav-compose"]
+room = ["room-runtime", "room-compiler", "room-ktx", "room-testing"]
+compose = ["compose-ui","compose-animation","compose-materialWindow", "compose-preview", "compose-material", "compose-material3", "compose-viewmodel-lifecycle", "compose-navigation", ]
+firebase = ["firebase-analytics", "firebase-crashlytics"]
+accompanist = ["accompanist-insets","accompanist-placeholder","accompanist-adaptive", "accompanist-systemuicontroller", "accompanist-pager", "accompanist-pager-indicators", "accompanist-permissions", "accompanist-navigation-material", "accompanist-navigation-animation"]
+
+[plugins]
+com-android-application = { id = "com.android.application", version.ref = "android-gradle-plugin" }
+com-android-library = { id = "com.android.library", version.ref = "android-gradle-plugin" }
+org-jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin-android" }
+mapsplatform-secrets-gradle-plugin = { id = "com.google.android.libraries.mapsplatform.secrets-gradle-plugin", version.ref = "mapsplatform-secrets" }
+dagger-hilt-android = { id = "com.google.dagger.hilt.android", version.ref = "hilt-plugin" }
+org-jetbrains-kotlin-plugin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin-serialization" }

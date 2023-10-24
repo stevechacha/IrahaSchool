@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "731703625537",
+    "project_id": "irahaschool-b2a50",
+    "storage_bucket": "irahaschool-b2a50.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:731703625537:android:6509ebe92a3be9cd3743c0",
+        "android_client_info": {
+          "package_name": "com.schooliraha.irahaschool"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "731703625537-b2ndqjhr8bg492jsbmsiodl3bt5v93rj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBANrgqwFa8jEQO1wJ_XTGjPN6NyUH9_Gg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "731703625537-b2ndqjhr8bg492jsbmsiodl3bt5v93rj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

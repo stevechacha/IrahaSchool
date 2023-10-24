@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">IrahaSchool</string>
+
+    <plurals name="finish_date_label">
+        <item quantity="one">To %1$s (%2$s day)</item>
+        <item quantity="other">To %1$s (%2$s days)</item>
+    </plurals>
+    <plurals name="finish_date">
+        <item quantity="one">%1$s (%2$s day)</item>
+        <item quantity="other">%1$s (%2$s days)</item>
+    </plurals>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="theme_label">Theme</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="theme_system">System</string>
+    <string name="locale_label">Language</string>
+    <string name="locale_system">Systemic</string>
+    <string name="version">Version: %1$s</string>
+    <string name="about">About app</string>
+    <string name="description">Iraha is an app that helps you spend money wisely. Writing down each spending sobers the mind and gives you an idea of how much and how you can spend.</string>
+    <string name="report_bug">Report a bug</string>
+    <string name="contribute">Contribute</string>
+    <string name="developer">Development &amp; design:</string>
+    <string name="not_found_email_clients">Email Not Found</string>
+    <string name="copy_in_clipboard">Copied</string>
+    <string name="today">Today</string>
+
+</resources>
